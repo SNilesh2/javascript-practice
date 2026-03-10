@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            Model
+        </title>
+    </head>
+
+    <body>
+        
+    </body>
+    <script>
+        //alert("This is an alert");
+        //prompt popup is used to get input from user
+        let input;
+        input = prompt('Enter the age ');  //always takes the input as string 
+        console.log(input);
+
+        //default argument in prompt
+        let age ;
+        age = prompt('enter the age','15');
+        console.log("default age",age);
+
+        //confirm popup stores the value as true or false 
+        let sentence;
+        sentence = confirm("are you an adult ?");
+        console.log(sentence);
+        console.log(typeof sentence);
+    </script>
+</html>
+
+
+
+<!-- there are three types of popup are there 
+1.alert()  -> to show something 
+2.prompt() -> to get the user input in popup and everthing is taken as strings in prompt popup
+3.confirm() -> to ask the yes or no questions in popup ,all the values are stored as boolean type  -->
